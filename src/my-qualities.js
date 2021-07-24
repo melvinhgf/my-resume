@@ -11,7 +11,7 @@
 import { PolymerElement, html } from '@polymer/polymer/polymer-element.js';
 import './shared-styles.js';
 
-class MyView4 extends PolymerElement {
+class MyQualities extends PolymerElement {
   static get template() {
     return html`
       <style include="shared-styles">
@@ -23,7 +23,7 @@ class MyView4 extends PolymerElement {
       </style>
 
       <div class="card">
-<h1>Acceptable Use Policy</h1>
+<h1>Qualities</h1>
 <p>This acceptable use policy (&quot;Policy&quot;) sets forth the general guidelines and acceptable and prohibited uses of Our <a target="_blank" rel="nofollow" href="https://melvinhgf.business.site">website</a> (&quot;Website&quot; or &quot;Service&quot;) and any of its related products and services (collectively, &quot;Services&quot;).</p>
 <p>This Policy is a legally binding agreement between you (&quot;User&quot;, &quot;you&quot; or &quot;your&quot;) and this Website operator (&quot;Operator&quot;, &quot;we&quot;, &quot;us&quot; or &quot;our&quot;). By accessing and using the Website and Services, you acknowledge that you have read, understood, and agree to be bound by the terms of this Agreement.</p>
 <p>If you are entering into this Agreement on behalf of a business or other legal entity, you represent that you have the authority to bind such entity to this Agreement, in which case the terms &quot;User&quot;, &quot;you&quot; or &quot;your&quot; shall refer to such entity. If you do not have such authority, or if you do not agree with the terms of this Agreement, you must not accept this Agreement and may not access and use the Website and Services.</p>
@@ -98,4 +98,4 @@ class MyView4 extends PolymerElement {
   }
 }
 
-window.customElements.define('my-view4', MyView4);
+window.customElements.define('my-qualities', MyQualities);
