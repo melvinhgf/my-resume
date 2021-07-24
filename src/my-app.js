@@ -53,6 +53,11 @@ class MyApp extends PolymerElement {
           text-decoration: none;
           color: var(--app-primary-color);
         }
+        .h3 a {
+          font-weight: bold;
+          text-decoration: none;
+          color: var(--app-primary-color);
+        }
 
         app-header {
           color: #fff;
@@ -95,7 +100,7 @@ class MyApp extends PolymerElement {
       <app-drawer-layout fullbleed="" narrow="{{narrow}}">
         <!-- Drawer content -->
         <app-drawer id="drawer" slot="drawer" swipe-open="[[narrow]]">
-          <app-toolbar><h3>MY RESUME</h3></app-toolbar>
+          <app-toolbar><h3><a href = "/">MY RESUME</a></h3></app-toolbar>
           <iron-selector
             selected="[[page]]"
             attr-for-selected="name"
@@ -165,7 +170,7 @@ class MyApp extends PolymerElement {
     // If no page was found in the route data, page will be an empty string.
     // Show 'view1' in that case. And if the page doesn't exist, show 'view404'.
     if (!page) {
-      this.page = 'view1';
+      this.page = 'intro';
     } else if (['intro', 'view1', 'view2', 'view3', 'view4', 'view5', 'view6'].indexOf(page) !== -1) {
       this.page = page;
     } else {
