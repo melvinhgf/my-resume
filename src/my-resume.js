@@ -117,7 +117,7 @@ class Resume extends PolymerElement {
                 icon="my-icons:menu"
                 drawer-toggle=""
               ></paper-icon-button>
-              <div main-title="">Legal Documentation</div>
+              <div main-title="">Ho Guang Fu (Melvin Ho)</div>
             </app-toolbar>
           </app-header>
 
