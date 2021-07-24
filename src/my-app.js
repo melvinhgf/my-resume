@@ -90,7 +90,7 @@ class Resume extends PolymerElement {
       <app-drawer-layout fullbleed="" narrow="{{narrow}}">
         <!-- Drawer content -->
         <app-drawer id="drawer" slot="drawer" swipe-open="[[narrow]]">
-          <app-toolbar><a href="https://melvinhgf.business.site" text-decoration="none">My Resume</a></app-toolbar>
+          <app-toolbar><a href="/my-app.js"none">My Resume</a></app-toolbar>
           <iron-selector
             selected="[[page]]"
             attr-for-selected="name"
@@ -117,7 +117,7 @@ class Resume extends PolymerElement {
                 icon="my-icons:menu"
                 drawer-toggle=""
               ></paper-icon-button>
-              <div main-title="">Ho Guang Fu (Melvin Ho)</div>
+              <div main-title="Ho Guang Fu (Melvin Ho)">Ho Guang Fu (Melvin Ho)</div>
             </app-toolbar>
           </app-header>
 
