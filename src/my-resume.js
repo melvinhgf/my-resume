@@ -97,7 +97,7 @@ class Resume extends PolymerElement {
             class="drawer-list"
             role="navigation"
           >
-            <a name="view1" href="[[rootPath]]view1">Privacy</a>
+            <a name="view1" href="[[rootPath]]privacy">Privacy</a>
             <a name="view2" href="[[rootPath]]view2">Cookie</a>
             <a name="view3" href="[[rootPath]]view3">Terms & Conditions</a>
             <a name="view4" href="[[rootPath]]view4">Acceptable Use</a>
@@ -122,7 +122,7 @@ class Resume extends PolymerElement {
           </app-header>
 
           <iron-pages selected="[[page]]" attr-for-selected="name" role="main">
-            <my-view1 name="view1"></my-view1>
+            <my-view1 name="privacy"></my-view1>
             <my-view2 name="view2"></my-view2>
             <my-view3 name="view3"></my-view3>
             <my-view4 name="view4"></my-view4>
