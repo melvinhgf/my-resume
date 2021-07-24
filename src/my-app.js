@@ -34,7 +34,7 @@ setPassiveTouchGestures(true);
 // in `index.html`.
 setRootPath(MyAppGlobals.rootPath);
 
-class Resume extends PolymerElement {
+class MyApp extends PolymerElement {
   static get template() {
     return html`
       <style>
