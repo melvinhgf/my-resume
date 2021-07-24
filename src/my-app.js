@@ -99,7 +99,7 @@ class MyApp extends PolymerElement {
           >
             <a name="intro" href="[[rootPath]]intro">Introduction</a>
             <a name="about" href="[[rootPath]]about">About</a>
-            <a name="qualities" href="[[rootPath]]keywords">Qualities</a>
+            <a name="qualities" href="[[rootPath]]qualities">Qualities</a>
             <a name="work" href="[[rootPath]]work">Work Experience</a>
             <a name="view4" href="[[rootPath]]view4">Acceptable Use</a>
             <a id="dunsellbutton" name="view5" href="[[rootPath]]view5">Do Not Sell My Data</a>
@@ -190,9 +190,6 @@ class MyApp extends PolymerElement {
         break;
       case 'work':
         import('./my-view3.js');
-        break;
-      case 'view4':
-        import('./my-view4.js');
         break;
       case 'view5':
         import('./my-view5.js');
