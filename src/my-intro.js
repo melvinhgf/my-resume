@@ -25,7 +25,7 @@ class MyIntro extends PolymerElement {
 <p>Melvin is an explorer of life, a person who loves to defeat challenges that come his way and climb new heights in life.</p>
 <p>He loves - and equally capable of - interacting and exchanging ideas with people of all ages. He makes a patient and nurturing mentor who always brings an underdog's positive traits.</p>
 <p>Melvin has high standards for things and expects everyone, including himself, to meet them.</p>
-<p>Years of overcoming challenges in life, Melvin's set his  mission in life as <quote>“Using Life To Influence Lives”</quote>. He is determined to live out his mission.</p> 
+<p>Years of overcoming challenges have formed Melvin's mission in life: <b><i>“Using Life To Influence Lives”</i></b>. He is determined to live out this mission.</p> 
 
 </div>
     `;
