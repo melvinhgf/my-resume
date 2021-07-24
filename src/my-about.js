@@ -22,7 +22,15 @@ class MyAbout extends PolymerElement {
       </style>
       <div class="card">
         <h1>About</h1>
-        <p>Full Name: Ho Guang Fu</p>
+        <p>Full Name: <b>Ho Guang Fu</b></p>
+        <p>Alias: <b>Melvin Ho</b></p>
+        <p>Current Location: <b>Sengkang, Singapore</b></p>
+        <p>Citizenship: <b>Singaporean</b></p>
+        <p>Academic Qualifications: <b>Graduate</b></p>
+        <p>Marital Status: <i>Please contact me directly.</i></p>
+        <p>Contacts: <i>Please use the Contact form</b></p>
+        <p>Social: <a href="https://facebook.com/melvinhgf" target="_blank" text-decoration="none" >Facebook</a> and <a href="https://linkedin.com/in/melvinhgf" target="_blank" text-decoration="none" >LinkedIn</a></p>
+        
         <p>Melvin is an explorer of life, a person who loves to defeat challenges that come his way and climb new heights in life.</p>
         <p>He loves - and equally capable of - interacting and exchanging ideas with people of all ages. He makes a patient and nurturing mentor who always brings an underdog's positive traits.</p>
         <p>Melvin has high standards for things and expects everyone, including himself, to meet them.</p>
