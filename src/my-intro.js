@@ -22,9 +22,11 @@ class MyIntro extends PolymerElement {
       </style>
       <div class="card">
 <h1>Introduction</h1>
-<p>Use this form to reach out to us regarding your questions and concerns. For reporting purposes and data subject requests, please use our <a href="./view5">DSAR</a> form.</p>
-<iframe src="https://www.cognitoforms.com/f/YtcYQljz2kStKCpk9voQJw?id=1" style="position:relative;width:1px;min-width:100%;*width:100%;" frameborder="0" scrolling="yes" seamless="seamless" height="1042" width="100%"></iframe>
-<script src="https://www.cognitoforms.com/scripts/embed.js"></script>
+<p>Melvin is an explorer of life, a person who loves to defeat challenges that come his way and climb new heights in life.</p>
+<p>He loves - and equally capable of - interacting and exchanging ideas with people of all ages. He makes a patient and nurturing mentor who always brings an underdog's positive traits.</p>
+<p>Melvin has high standards for things and expects everyone, including himself, to meet them.</p>
+<p>Years of overcoming challenges in life, Melvin's set his  mission in life as <quote>“Using Life To Influence Lives”</quote>. He is determined to live out his mission.</p> 
+
 </div>
     `;
   }
