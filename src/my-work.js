@@ -23,7 +23,7 @@ class MyWork extends PolymerElement {
       </style>
 
       <div class="card">
-        <h1>Education</h1>
+        <h1>Work Experiences</h1>
         <b>Post-Graduate Diploma in Education (with Credit), 2005</b>
         <ul>
         <li>National Institute of Education, Nanyang Technological Univeristy, Singapore</li>
