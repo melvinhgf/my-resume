@@ -50,21 +50,19 @@ class MyApp extends PolymerElement {
         }
         
         .h3 {
-          font-weight: bold;
-          text-decoration: none;
-          color: var(--app-primary-color);
+          margin: 0 20px;
         }
         .h3 a {
+          display: block;
+          padding: 0 16px;
+          text-decoration: none;
+          color: var(--app-primary-color);
+        }
+        .h3 a.iron-selected {
           font-weight: bold;
           text-decoration: none;
           color: var(--app-primary-color);
         }
-        .h3 a.selected {
-          font-weight: bold;
-          text-decoration: none;
-          color: var(--app-primary-color);
-        }
-
 
         app-header {
           color: #fff;
