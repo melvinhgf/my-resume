@@ -183,7 +183,7 @@ class MyApp extends PolymerElement {
         import('./my-intro.js');
         break;
       case 'about':
-        import('./my-view1.js');
+        import('./my-about.js');
         break;
       case 'keywords':
         import('./my-view2.js');
