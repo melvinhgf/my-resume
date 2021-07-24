@@ -90,14 +90,14 @@ class MyApp extends PolymerElement {
       <app-drawer-layout fullbleed="" narrow="{{narrow}}">
         <!-- Drawer content -->
         <app-drawer id="drawer" slot="drawer" swipe-open="[[narrow]]">
-          <app-toolbar>My Resume</app-toolbar>
+          <app-toolbar><h1>My Resume</h1></app-toolbar>
           <iron-selector
             selected="[[page]]"
             attr-for-selected="name"
             class="drawer-list"
             role="navigation"
           >
-            <a name="view1" href="[[rootPath]]view1">Privacy</a>
+            <a name="view1" href="[[rootPath]]summary">Summary</a>
             <a name="view2" href="[[rootPath]]view2">Cookie</a>
             <a name="view3" href="[[rootPath]]view3">Terms & Conditions</a>
             <a name="view4" href="[[rootPath]]view4">Acceptable Use</a>
@@ -117,7 +117,7 @@ class MyApp extends PolymerElement {
                 icon="my-icons:menu"
                 drawer-toggle=""
               ></paper-icon-button>
-              <div main-title="Ho Guang Fu (Melvin Ho)">Ho Guang Fu (Melvin Ho)</div>
+              <div main-title="">Ho Guang Fu (Melvin Ho)</div>
             </app-toolbar>
           </app-header>
 
