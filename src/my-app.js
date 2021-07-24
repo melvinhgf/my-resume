@@ -90,7 +90,7 @@ class MyApp extends PolymerElement {
       <app-drawer-layout fullbleed="" narrow="{{narrow}}">
         <!-- Drawer content -->
         <app-drawer id="drawer" slot="drawer" swipe-open="[[narrow]]">
-          <app-toolbar><h3 color = "#288dbf" font-weight = "bold"><a href="[[rootPath]]" text-decoration = "none">MY RESUME</a></h3></app-toolbar>
+          <app-toolbar><h3 color = "#288dbf" font-weight = "bold">MY RESUME</h3></app-toolbar>
           <iron-selector
             selected="[[page]]"
             attr-for-selected="name"
@@ -98,7 +98,7 @@ class MyApp extends PolymerElement {
             role="navigation"
           >
             <a name="intro" href="[[rootPath]]intro">Introduction</a>
-            <a name="view1" href="[[rootPath]]view1">Introduction</a>
+            <a name="view1" href="[[rootPath]]view1">View 1</a>
             <a name="view2" href="[[rootPath]]view2">About</a>
             <a name="view3" href="[[rootPath]]view3">Keywords</a>
             <a name="view4" href="[[rootPath]]view4">Acceptable Use</a>
@@ -179,7 +179,7 @@ class MyApp extends PolymerElement {
     // Note: `polymer build` doesn't like string concatenation in the import
     // statement, so break it up.
     switch (page) {
-      case 'view1':
+      case 'intro':
         import('./my-intro.js');
         break;
       case 'view1':
