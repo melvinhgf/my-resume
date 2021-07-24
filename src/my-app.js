@@ -100,7 +100,7 @@ class MyApp extends PolymerElement {
             <a name="intro" href="[[rootPath]]intro">Introduction</a>
             <a name="about" href="[[rootPath]]about">About</a>
             <a name="qualities" href="[[rootPath]]qualities">Qualities</a>
-            <a name="work" href="[[rootPath]]work">Work Experience</a>
+            <a name="work" href="[[rootPath]]work">Work Experiences</a>
             <a name="education" href="[[rootPath]]education">Education</a>
             <a name="skills" href="[[rootPath]]skills">Skills & Awards</a>
             <a id="dunsellbutton" name="view5" href="[[rootPath]]view5">Do Not Sell My Data</a>
@@ -196,7 +196,7 @@ class MyApp extends PolymerElement {
         import('./my-education.js');
         break;
       case 'skills':
-        import('./my-view6.js');
+        import('./my-skills.js');
         break;
       case 'view404':
         import('./my-view404.js');
