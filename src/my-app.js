@@ -102,7 +102,7 @@ class MyApp extends PolymerElement {
             <a name="qualities" href="[[rootPath]]qualities">Qualities</a>
             <a name="work" href="[[rootPath]]work">Work Experience</a>
             <a name="education" href="[[rootPath]]education">Education</a>
-            <a name="skills" href="[[rootPath]]skills">Acceptable Use</a>
+            <a name="skills" href="[[rootPath]]skills">Skills & Awards</a>
             <a id="dunsellbutton" name="view5" href="[[rootPath]]view5">Do Not Sell My Data</a>
             <br>
             <a id="view6" name="view6" href="[[rootPath]]view6">Contact Us</a>
@@ -162,7 +162,7 @@ class MyApp extends PolymerElement {
     // Show 'view1' in that case. And if the page doesn't exist, show 'view404'.
     if (!page) {
       this.page = 'intro';
-    } else if (['intro', 'about', 'qualities', 'work', 'education', 'view5', 'view6'].indexOf(page) !== -1) {
+    } else if (['intro', 'about', 'qualities', 'work', 'education', 'skills', 'view6'].indexOf(page) !== -1) {
       this.page = page;
     } else {
       this.page = 'view404';
@@ -190,12 +190,12 @@ class MyApp extends PolymerElement {
         import('./my-qualities.js');
         break;
       case 'work':
-        import('./my-view5.js');
+        import('./my-work.js');
         break;
       case 'education':
         import('./my-education.js');
         break;
-      case 'view6':
+      case 'skills':
         import('./my-view6.js');
         break;
       case 'view404':
