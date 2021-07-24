@@ -66,12 +66,12 @@ class MyApp extends PolymerElement {
           display: block;
           padding: 0 16px;
           text-decoration: none;
-          color: var(--app-secondary-color);
+          color: var(--app-primary-color);
           line-height: 40px;
         }
 
         .drawer-list a.iron-selected {
-          color: var(--app-primary-color);
+          color: var(--app-secondary-color);
           font-weight: bold;
         }
       </style>
@@ -90,7 +90,7 @@ class MyApp extends PolymerElement {
       <app-drawer-layout fullbleed="" narrow="{{narrow}}">
         <!-- Drawer content -->
         <app-drawer id="drawer" slot="drawer" swipe-open="[[narrow]]">
-          <app-toolbar><h2>MY RESUME</h2></app-toolbar>
+          <app-toolbar><h3>My Resume</h3></app-toolbar>
           <iron-selector
             selected="[[page]]"
             attr-for-selected="name"
