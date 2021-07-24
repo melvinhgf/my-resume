@@ -35,12 +35,11 @@ class MyQualities extends PolymerElement {
 <br>
 <li>Freedom</li>
 <li>Transparent</li>
-
+<br>
 <li>Communicator</li>
 <li>Mentor</li>
 <li>Partner</li>
 <li>Gets-Work-Done</li>
-
 </ul>
       </div>
     `;
