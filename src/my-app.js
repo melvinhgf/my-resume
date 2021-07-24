@@ -48,6 +48,7 @@ class MyApp extends PolymerElement {
         app-drawer-layout:not([narrow]) [drawer-toggle] {
           display: none;
         }
+        
         .h3 {
           font-weight: bold;
           text-decoration: none;
@@ -58,6 +59,12 @@ class MyApp extends PolymerElement {
           text-decoration: none;
           color: var(--app-primary-color);
         }
+        .h3 a.selected {
+          font-weight: bold;
+          text-decoration: none;
+          color: var(--app-primary-color);
+        }
+
 
         app-header {
           color: #fff;
@@ -108,9 +115,9 @@ class MyApp extends PolymerElement {
             role="navigation"
           >
             <a name="intro" href="[[rootPath]]intro">Introduction</a>
-            <a name="view1" href="[[rootPath]]view1">View 1</a>
-            <a name="view2" href="[[rootPath]]view2">About</a>
-            <a name="view3" href="[[rootPath]]view3">Keywords</a>
+            <a name="about" href="[[rootPath]]about">About</a>
+            <a name="keywords" href="[[rootPath]]keywords">Keywords</a>
+            <a name="work" href="[[rootPath]]work">Work Experience</a>
             <a name="view4" href="[[rootPath]]view4">Acceptable Use</a>
             <a id="dunsellbutton" name="view5" href="[[rootPath]]view5">Do Not Sell My Data</a>
             <br>
@@ -135,9 +142,9 @@ class MyApp extends PolymerElement {
 
           <iron-pages selected="[[page]]" attr-for-selected="name" role="main">
             <my-intro name="intro"></my-intro>
-            <my-view1 name="view1"></my-view1>
-            <my-view2 name="view2"></my-view2>
-            <my-view3 name="view3"></my-view3>
+            <my-about name="about"></my-about>
+            <my-keywords name="keywords"></my-keywords>
+            <my-work name="work"></my-work>
             <my-view4 name="view4"></my-view4>
             <my-view5 name="view5"></my-view5>
             <my-view6 name="view6"></my-view6>
@@ -171,7 +178,7 @@ class MyApp extends PolymerElement {
     // Show 'view1' in that case. And if the page doesn't exist, show 'view404'.
     if (!page) {
       this.page = 'intro';
-    } else if (['intro', 'view1', 'view2', 'view3', 'view4', 'view5', 'view6'].indexOf(page) !== -1) {
+    } else if (['intro', 'about', 'keywords', 'work', 'view4', 'view5', 'view6'].indexOf(page) !== -1) {
       this.page = page;
     } else {
       this.page = 'view404';
@@ -192,13 +199,13 @@ class MyApp extends PolymerElement {
       case 'intro':
         import('./my-intro.js');
         break;
-      case 'view1':
+      case 'about':
         import('./my-view1.js');
         break;
-      case 'view2':
+      case 'keywords':
         import('./my-view2.js');
         break;
-      case 'view3':
+      case 'work':
         import('./my-view3.js');
         break;
       case 'view4':
