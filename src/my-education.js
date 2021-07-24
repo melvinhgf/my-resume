@@ -24,9 +24,22 @@ class MyEducation extends PolymerElement {
 
       <div class="card">
         <h1>Education</h1>
-<ul>
-<li>Empathy</li>
-<li>Impartial</li>
+        <b>Post-Graduate Diploma in Education (with Credit), 2005</b>
+        <ul>
+        <li>National Institute of Education, Nanyang Technological Univeristy, Singapore</li>
+        <li>Major: Teaching of Secondary Science (Biology and Chemistry)</li>
+        </ul>
+        <b>Bachelor of Science with Second Class Honours (Lower Division), 2004</b>
+        <ul>
+        <li>University Scholars Programme, National Univeristy of Singapore, Singapore</li>
+        <li>Major: Biological Sciences (Molecular Biology and Evolutionary Biology</li>
+        </ul>
+        <b>Singapore-Cambridge General Certificate in Education A-Level, 1997</b>
+        <ul>
+        <li>Anderson Junior College, Singapore</li>
+        <li>2"A"+1"AO" Major: Biological Sciences (Molecular Biology and Evolutionary Biology</li>
+        </ul>
+        
 <li>People-oriented</li>
 <li>Analytical</li>
 <li>Meticulous</li>
