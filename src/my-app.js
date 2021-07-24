@@ -90,13 +90,14 @@ class MyApp extends PolymerElement {
       <app-drawer-layout fullbleed="" narrow="{{narrow}}">
         <!-- Drawer content -->
         <app-drawer id="drawer" slot="drawer" swipe-open="[[narrow]]">
-          <app-toolbar><a href="[[rootPath]]" color="#288dbf" text-decoration="none"><b>MY RESUME</b></a></app-toolbar>
+          <app-toolbar><h3 color = "#288dbf" font-weight = "bold"><a href="[[rootPath]]" text-decoration = "none">MY RESUME</a></h3></app-toolbar>
           <iron-selector
             selected="[[page]]"
             attr-for-selected="name"
             class="drawer-list"
             role="navigation"
           >
+            <a name="intro" href="[[rootPath]]intro">Introduction</a>
             <a name="view1" href="[[rootPath]]view1">Introduction</a>
             <a name="view2" href="[[rootPath]]view2">About</a>
             <a name="view3" href="[[rootPath]]view3">Keywords</a>
@@ -123,6 +124,7 @@ class MyApp extends PolymerElement {
           </app-header>
 
           <iron-pages selected="[[page]]" attr-for-selected="name" role="main">
+            <my-intro name="intro"></my-intro>
             <my-view1 name="view1"></my-view1>
             <my-view2 name="view2"></my-view2>
             <my-view3 name="view3"></my-view3>
@@ -159,7 +161,7 @@ class MyApp extends PolymerElement {
     // Show 'view1' in that case. And if the page doesn't exist, show 'view404'.
     if (!page) {
       this.page = 'view1';
-    } else if (['view1', 'view2', 'view3', 'view4', 'view5', 'view6'].indexOf(page) !== -1) {
+    } else if (['intro', 'view1', 'view2', 'view3', 'view4', 'view5', 'view6'].indexOf(page) !== -1) {
       this.page = page;
     } else {
       this.page = 'view404';
@@ -177,6 +179,9 @@ class MyApp extends PolymerElement {
     // Note: `polymer build` doesn't like string concatenation in the import
     // statement, so break it up.
     switch (page) {
+      case 'view1':
+        import('./my-intro.js');
+        break;
       case 'view1':
         import('./my-view1.js');
         break;
