@@ -48,21 +48,6 @@ class MyApp extends PolymerElement {
         app-drawer-layout:not([narrow]) [drawer-toggle] {
           display: none;
         }
-        
-        .h3 {
-          margin: 0 20px;
-        }
-        .h3 a {
-          display: block;
-          padding: 0 16px;
-          text-decoration: none;
-          color: var(--app-primary-color);
-        }
-        .h3 a.iron-selected {
-          font-weight: bold;
-          text-decoration: none;
-          color: var(--app-primary-color);
-        }
 
         app-header {
           color: #fff;
@@ -105,13 +90,14 @@ class MyApp extends PolymerElement {
       <app-drawer-layout fullbleed="" narrow="{{narrow}}">
         <!-- Drawer content -->
         <app-drawer id="drawer" slot="drawer" swipe-open="[[narrow]]">
-          <app-toolbar><h3><a href = "/">MY RESUME</a></h3></app-toolbar>
+          
           <iron-selector
             selected="[[page]]"
             attr-for-selected="name"
             class="drawer-list"
             role="navigation"
           >
+            <app-toolbar><h3><a href = "/">MY RESUME</a></h3></app-toolbar>
             <a name="intro" href="[[rootPath]]intro">Introduction</a>
             <a name="about" href="[[rootPath]]about">About</a>
             <a name="keywords" href="[[rootPath]]keywords">Keywords</a>
