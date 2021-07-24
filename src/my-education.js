@@ -32,28 +32,14 @@ class MyEducation extends PolymerElement {
         <b>Bachelor of Science with Second Class Honours (Lower Division), 2004</b>
         <ul>
         <li>University Scholars Programme, National Univeristy of Singapore, Singapore</li>
-        <li>Major: Biological Sciences (Molecular Biology and Evolutionary Biology</li>
+        <li>Major: Biological Sciences (Molecular Biology and Evolutionary Biology)</li>
         </ul>
         <b>Singapore-Cambridge General Certificate in Education A-Level, 1997</b>
         <ul>
         <li>Anderson Junior College, Singapore</li>
-        <li>2"A"+1"AO" Major: Biological Sciences (Molecular Biology and Evolutionary Biology</li>
+        <li>Distinctions: 2"A" + 1"AO"</li>
+        <li>General Paper: B3</li>
         </ul>
-        
-<li>People-oriented</li>
-<li>Analytical</li>
-<li>Meticulous</li>
-<li>Adaptable</li>
-<li>Easy-going</li>
-<br>
-<li>Freedom</li>
-<li>Transparent</li>
-<br>
-<li>Communicator</li>
-<li>Mentor</li>
-<li>Partner</li>
-<li>Gets-Work-Done</li>
-</ul>
       </div>
     `;
   }
