@@ -47,7 +47,7 @@ class MySkills extends PolymerElement {
       </div>
       
       <div class="card">
-        <p><h1>Awards</h1> <i>(in order of significance)</i></p>
+        <p><h1>National Awards</h1> <i>(in order of significance)</i></p>
         <p><b>National Youth Achievement Award (Gold)</b> (awarded by NYAA Council Singapore)</p>
         <p><b>National Service Medal</b> (awarded by Singapore Armed Forces)</p>
         <p><b>Good Service Medal</b> (awarded by Singapore Armed Forces)</p>
