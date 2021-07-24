@@ -47,10 +47,10 @@ class MySkills extends PolymerElement {
       </div>
       
       <div class="card">
-        <h1>Awards</h1><p> <i>(in order of significance)</i></p>
-        <b>National Youth Achievement Award (Gold), 2004</b><p> (awarded by NYAA Council Singapore)</p>
-        <b>National Service Medal</b><p> (awarded by Singapore Armed Forces)</p>
-        <b>Good Service Medal</b><p> (awarded by Singapore Armed Forces)</p>
+        <p><h1>Awards</h1> <i>(in order of significance)</i></p>
+        <p><b>National Youth Achievement Award (Gold)</b> (awarded by NYAA Council Singapore)</p>
+        <p><b>National Service Medal</b> (awarded by Singapore Armed Forces)</p>
+        <p><b>Good Service Medal</b> (awarded by Singapore Armed Forces)</p>
       </div>
     `;
   }
