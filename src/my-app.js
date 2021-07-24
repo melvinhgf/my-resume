@@ -90,7 +90,7 @@ class MyApp extends PolymerElement {
       <app-drawer-layout fullbleed="" narrow="{{narrow}}">
         <!-- Drawer content -->
         <app-drawer id="drawer" slot="drawer" swipe-open="[[narrow]]">
-          <app-toolbar><a href="/" color="#288dbf" text-decoration="none"><b>MY RESUME</b></a></app-toolbar>
+          <app-toolbar><a href="[[rootPath]]" color="#288dbf" text-decoration="none"><b>MY RESUME</b></a></app-toolbar>
           <iron-selector
             selected="[[page]]"
             attr-for-selected="name"
