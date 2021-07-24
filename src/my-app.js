@@ -90,20 +90,22 @@ class MyApp extends PolymerElement {
       <app-drawer-layout fullbleed="" narrow="{{narrow}}">
         <!-- Drawer content -->
         <app-drawer id="drawer" slot="drawer" swipe-open="[[narrow]]">
-          <app-toolbar><h1>My Resume</h1></app-toolbar>
+          <app-toolbar><h2 text="#288dbf">My Resume</h2></app-toolbar>
           <iron-selector
             selected="[[page]]"
             attr-for-selected="name"
             class="drawer-list"
             role="navigation"
           >
-            <a name="view1" href="[[rootPath]]summary">Summary</a>
+            <a name="view1" href="[[rootPath]]view1">Summary</a>
             <a name="view2" href="[[rootPath]]view2">Cookie</a>
             <a name="view3" href="[[rootPath]]view3">Terms & Conditions</a>
             <a name="view4" href="[[rootPath]]view4">Acceptable Use</a>
             <a id="dunsellbutton" name="view5" href="[[rootPath]]view5">Do Not Sell My Data</a>
             <br>
             <a id="view6" name="view6" href="[[rootPath]]view6">Contact Us</a>
+            <br>
+            <a> Melvin Ho &copy; 2021</a>
 
 
           </iron-selector>
