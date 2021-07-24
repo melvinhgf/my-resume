@@ -23,22 +23,23 @@ class MySkills extends PolymerElement {
       </style>
 
       <div class="card">
-        <h1>Skills & Awards</h1>
-        <b>Post-Graduate Diploma in Education (with Credit), 2005</b>
+        <h1>Skills</h1>
+        <b>Languang Proficiency</b>
         <ul>
-        <li>National Institute of Education, Nanyang Technological Univeristy, Singapore</li>
-        <li>Major: Teaching of Secondary Science (Biology and Chemistry)</li>
+        <li>Speaking: English and Chinese</li>
+        <li>Reading: English and Chinese</li>
+        <li>Writing: English</li>
         </ul>
-        <b>Bachelor of Science with Second Class Honours (Lower Division), 2004</b>
+        <b>Computer Literacy</b>
         <ul>
-        <li>University Scholars Programme, National Univeristy of Singapore, Singapore</li>
-        <li>Major: Biological Sciences (Molecular Biology and Evolutionary Biology)</li>
+        <li>General: Windows and Mac (including iOS)</li>
+        <li>Work Applications: Windows and Mac (including iOS)</li>
+        <li>Programming: Basic (eg HTML, CSS, Javerscripts etc)</li>
         </ul>
-        <b>Singapore-Cambridge General Certificate in Education A-Level, 1997</b>
+        <b>Others</b>
         <ul>
-        <li>Anderson Junior College, Singapore</li>
-        <li>Distinctions: 2"A" + 1"AO"</li>
-        <li>General Paper: B3</li>
+        <li>Social media marking (endorsed by SkillsFuture Singapore and SHATEC)</li>
+        <li>Customer service in hospitality (endorsed by SkillsFuture Singapore and SHATEC)</li>
         </ul>
       </div>
     `;
