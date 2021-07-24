@@ -52,6 +52,18 @@ $_documentContainer.innerHTML = `<dom-module id="shared-styles">
         font-size: 16px;
       }
       
+      a {
+        margin: 16px 0;
+        color: #288dbf;
+        text-decoration: none;
+      }
+      
+      a.selected {
+        margin: 16px 0;
+        color: #288dbf;
+        text-decoration: none;
+      }
+      
     </style>
   </template>
 </dom-module>`;
