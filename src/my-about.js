@@ -19,13 +19,8 @@ class MyAbout extends PolymerElement {
           display: block;
           padding: 10px;
         }
-        
-        .a {
-          colour: red;
-          text-decoration: none;
-         }
-         
       </style>
+      
       <div class="card">
         <h1>About</h1>
         <p>Full Name: <b>Ho Guang Fu</b></p>
