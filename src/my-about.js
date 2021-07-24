@@ -33,8 +33,8 @@ class MyAbout extends PolymerElement {
         <p>Current Location: <b>Sengkang, Singapore</b></p>
         <p>Citizenship: <b>Singaporean</b></p>
         <p>Academic Qualifications: <b>Graduate</b></p>
-        <p>Marital Status: <i>Please contact me directly.</i></p>
-        <p>Contacts: <i>Please use the Contact form</i></p>
+        <p>Marital Status: <b><i>Please contact me directly.</i></b></p>
+        <p>Contacts: <b><i>Please use the Contact form.</i></b></p>
         <p>Social: <a href="https://facebook.com/melvinhgf" target="_blank"><b>Facebook</b></a> and <a href="https://linkedin.com/in/melvinhgf" target="_blank" ><b>LinkedIn</b></a></p>
       </div>
     `;
