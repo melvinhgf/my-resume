@@ -47,27 +47,10 @@ class MySkills extends PolymerElement {
       </div>
       
       <div class="card">
-        <h1>Awards</h1>
-        <b>Languang Proficiency</b>
-        <ul>
-        <li>Speaking: English and Chinese</li>
-        <li>Reading: English and Chinese</li>
-        <li>Writing: English</li>
-        </ul>
-        <b>Computer Literacy</b>
-        <ul>
-        <li>General: Windows and Mac (including iOS)</li>
-        <li>Work Applications: Windows and Mac (including iOS)</li>
-        <li>Programming: Basic (eg HTML, CSS, Javerscripts etc)</li>
-        </ul>
-        <b>Others</b>
-        <ul>
-        <li>Social media marking (endorsed by SkillsFuture Singapore and SHATEC)</li>
-        <li>Customer service in hospitality (endorsed by SkillsFuture Singapore and SHATEC)</li>
-        <li>Basic Open Waters Driving Certification (issued by National Association of Underwater Instructors)</li>
-        <li>Powered Pleasure Craft Driving License (issued by Maritime and Port Authority of Singapore)</li>
-        <li>Class 3 Driving License (issued by Republic of Singapore)</li>
-        </ul>
+        <h1>Awards</h1><p> <i>(in order of significance)</i></p>
+        <b>National Youth Achievement Award (Gold), 2004</b><p> (awarded by NYAA Council Singapore)</p>
+        <b>National Service Medal</b><p> (awarded by Singapore Armed Forces)</p>
+        <b>Good Service Medal</b><p> (awarded by Singapore Armed Forces)</p>
       </div>
     `;
   }
